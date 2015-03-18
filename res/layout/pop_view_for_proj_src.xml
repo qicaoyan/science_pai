@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/pop_view_for_proj_layout" >
+
+    <ListView
+        android:id="@+id/proj_src_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_weight="3"
+        android:divider="@color/transparent"
+        android:dividerHeight="0dip"
+    
+        />
+    <ListView
+        android:id="@+id/proj_src_next_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:background="@color/dark_blue"
+        android:layout_weight="1"
+         />
+
+</LinearLayout>

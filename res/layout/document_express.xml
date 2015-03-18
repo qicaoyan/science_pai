@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/test11">
+    
+
+      <com.science.view.MyHeader
+        android:id="@+id/doc_express_common_header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+    </com.science.view.MyHeader>
+
+   
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/doc_list_layout">
+
+<ListView android:id="@+id/doc_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dip"
+    android:layout_marginBottom="40dip"
+    android:descendantFocusability ="beforeDescendants">"
+    
+</ListView>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+    
+    <ImageButton android:id="@+id/sci_analyse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sci_analyse_01a"/>
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/a_vertical_bar_black"/>
+        <ImageButton android:id="@+id/assist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/assist_01a"/>
+</LinearLayout>
+
+
+<RelativeLayout 
+    android:id="@+id/doc_loading_mask_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/translucent_mask_gray"
+    >
+<ProgressBar android:id="@+id/doc_loading_progress_bar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    stype = "?android:attr/progressBarStyleLarge"
+    />
+</RelativeLayout>
+
+<include layout="@layout/documenttagitem"/>
+
+
+</RelativeLayout> 
+
+
+
+
+
+
+</LinearLayout>

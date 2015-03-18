@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical">
+    
+    <TextView 
+        android:id="@+id/doc_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:paddingLeft="30dip"
+        android:maxLines="2"
+        android:paddingRight="30dip"
+        android:textSize="16sp"
+        android:textColor="@color/text_dark_gray"
+        android:text="北京市关于征集2014年中央文化产业发展专项资金一般项目的通知"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_title"
+        android:layout_marginTop="10dip"
+        android:paddingLeft="30dip"
+        android:paddingBottom="10dip"
+    >
+
+        <ImageView
+            android:id="@+id/num_like_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/like" />
+
+        <TextView
+            android:id="@+id/num_like_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:text="2781"
+            android:textColor="@color/text_light_gray"
+            android:textSize="10sp" />
+        
+        
+         <ImageView
+            android:id="@+id/num_comment_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/comments" 
+            android:layout_marginLeft="10dip"/>
+
+        <TextView
+            android:id="@+id/num_like_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:text="368"
+            android:textColor="@color/text_light_gray"
+            android:textSize="10sp" />
+        
+    </LinearLayout>
+    
+    
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/a_horizontal_bar_black"/>
+</LinearLayout>

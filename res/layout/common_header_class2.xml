@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/repeat_bg_blue"
+    android:id="@+id/common_header_class2" >
+    
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:background="@color/light_blue" >
+
+       <ImageButton
+           android:id="@+id/doc_home_btn"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="#00000000"
+           android:paddingLeft="15dip"
+           android:paddingTop="15dip"
+           android:src="@drawable/home" >
+       </ImageButton>
+
+       <ImageButton
+           android:id="@+id/doc_setting_btn"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentTop="true"
+           android:background="#00000000"
+           android:paddingRight="15dip"
+           android:paddingTop="15dip"
+           android:src="@drawable/personal_setting_normal" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/doc_home_btn"
+           android:layout_centerHorizontal="true"
+           android:paddingTop="10dip"
+           android:text="文献速递"
+           android:textSize="20sp"
+           android:textColor="@color/white" />
+
+       <LinearLayout
+           android:id="@+id/common_header_btn_layout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal" 
+           android:layout_centerHorizontal="true"
+           android:paddingBottom="20dip"
+           android:layout_alignParentBottom="true">
+       <com.science.view.MyImageButton
+           android:id="@+id/chinese_doc"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/label_01"/>
+
+       <com.science.view.MyImageButton
+           android:id="@+id/english_doc"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/label_02" />
+       
+       <com.science.view.MyImageButton
+           android:id="@+id/working_doc"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/label_03" />
+       
+       <com.science.view.MyImageButton
+           android:id="@+id/nsf_doc"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/label_04" />       
+       </LinearLayout>
+
+
+   </RelativeLayout>
+
+</RelativeLayout>

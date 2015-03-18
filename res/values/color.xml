@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="background"> #383A4C</color> 
+    <color name="background1"> #00383A4C</color> 
+    <color name="logindialogbackground">#204f7d</color>
+    <color name="headerbackground">#38a1de</color>
+    <color name="mainpagebackground">#0f3e6d</color>
+    <color name="keywordsbackground">#638Ab3</color>
+    <color name="sharedialogbackground">#638Ab3</color>
+    <color name="keywordstitle">#245b91</color>
+    <color name = "hotepagebackground">#ced7e0</color>
+    <color name="white"> #ffffff</color> 
+    <color name="black"> #000000</color> 
+    <color name="light_blue">#39a1d1</color>
+    <color name="hotpagetitle1"> #b8d45d</color>
+    <color name="hotpagetitle2"> #649fd7</color>
+    <color name="hotpagetitle3"> #345678</color>
+    <color name="hotpagetitle4"> #456789</color>
+    <color name="dark_blue">#147cb9</color>
+     <color name="page_back">#fff2f2f2</color>
+    <color name="logo_text_color">#ff7f7f7f</color>
+    <color name="login_with_other_plat_text_color">#ff383838</color>
+    <color name="dialog_white_bg">#fbfbfb</color>
+    <color name="text_dark_gray">#676b6c</color>
+    <color name="text_light_gray">#abacb1</color>
+    <color name="translucent_gray">#88b7b7b7</color>
+    <color name="background_light_gray">#dfe2e7</color>
+    <color name="translucent_mask_gray">#66676b6c</color>
+</resources>

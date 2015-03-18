@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+     android:stretchColumns="1" >
+   
+     <TableRow >
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+           android:gravity="center"
+        android:text="电子邮箱" />
+  <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+         />
+  </TableRow>
+  
+         
+         <TableRow >
+             
+             <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+           android:gravity="center"
+        android:text="用户名" />
+             
+              <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:inputType="text"
+         />
+             
+         </TableRow>
+  
+         
+         <TableRow >
+             
+             <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+           android:gravity="center"
+        android:text="密码" />
+             
+              <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:password="true"
+         />
+             
+         </TableRow>
+  
+         
+         <TableRow >
+             
+             <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="确认密码" />
+             
+              <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:password="true"
+         />
+             
+         </TableRow>
+         
+            
+             
+              <RelativeLayout 
+     android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+                   
+                    >
+                   
+                  
+           
+                 
+                   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="验证码" 
+        android:id="@+id/t1"
+        />
+                   
+                  <EditText 
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+           android:inputType="number"
+           android:id="@+id/e1"
+           android:layout_toRightOf="@id/t1"
+            />
+                 
+             <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+       android:background="@color/background"
+       android:text="30+20=?"
+       android:textColor="#FF0000"
+       android:id="@+id/t2"
+       android:layout_toRightOf="@id/e1"
+      
+        />           
+                  
+                  
+                  
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tvhtml"
+        android:layout_toRightOf="@id/t2"
+        />      
+                 
+              
+                  <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+       />
+                 
+                 
+               <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/tvhtml2"
+       
+       android:layout_below="@id/e1"
+        />    
+             
+                 <Button 
+                     
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="提交注册"     
+         android:layout_below="@id/tvhtml2"     
+           android:layout_marginLeft="50dp"
+                     /> 
+                  
+                  
+               </RelativeLayout>  
+             
+                   
+    
+</TableLayout>
+
